@@ -10,6 +10,8 @@ class Triangle
   
   def kind 
   length_array = [length_one, length_two, length_three]
+  order = length_array.sort 
+  if 
   
   end 
 
