@@ -16,7 +16,8 @@ class Triangle
     else 
       if order[0] == order[1] && order[1] == order[2] 
         :equilateral
-    end 
+    end
+  end 
   end 
 
     
