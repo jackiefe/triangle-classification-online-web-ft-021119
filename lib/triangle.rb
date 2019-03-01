@@ -13,6 +13,8 @@ class Triangle
     order = length_array.sort 
     if order.include?(0) || order[0] + order[1] <= order[2]
       raise TriangleError
+    else 
+      if 
     end 
   end 
 
