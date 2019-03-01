@@ -17,9 +17,7 @@ class Triangle
       if order[0] == order[1] && order[1] == order[2] 
         :equilateral
     elsif order[0] == order[1] && !(order[1] == order[2])
-        :isosceles 
-      end 
-    end 
+        :isosceles
         
     end
   end 
