@@ -14,7 +14,8 @@ class Triangle
     if order.include?(0) || order[0] + order[1] <= order[2]
       raise TriangleError
     else 
-      if 
+      if order[0] == order[1] && order[1] == order[2] 
+        :equilateral
     end 
   end 
 
